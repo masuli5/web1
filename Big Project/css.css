@@ -1,0 +1,427 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.head{
+	width: 100%;
+	height: 170px;
+	background-color: white;
+}
+.bang{
+	color: #9a9791;
+	text-decoration: none;
+	font-size: 10px;
+	top: 7px;
+	position: absolute;
+	left: 0px;
+}
+.right{
+	width: 1180px;
+	height: 32px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right>a{
+	color: #9a9791;
+	text-decoration: none;
+	font-size: 10px;
+	position: absolute;
+	top: 10px;
+}
+.top-qq{
+	left: 460px;
+	top: 7px;
+}
+.top-weixin{
+	left: 495px;
+	top: 7px;
+}
+.top-weibo{
+	left: 533px;
+	top: 7px;
+}
+.middle{
+	height: 127px;
+	padding-top:27px; 
+}
+.logo{
+	position: absolute;
+	top: 44px;
+	left: 0px;
+}
+.input{
+	width: 500px;
+	height: 40px;
+	border: 3px solid  #fe6c00;
+	position: absolute;
+	top: 59px;
+	left: 250px;
+	border-radius: 3px;
+}
+.sou{
+	background: #fe6c00;
+	position: absolute;
+	top: 59px;
+	left: 753px;
+	width: 82px;
+	height: 46px;
+}
+.sou>a{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 12px;
+	left: 18px;
+}
+.x{
+	position: absolute;
+	top: 58px;
+	right: 0px;
+}
+.ul{
+	position: absolute;
+	left: 259px;
+	top: 107px;
+}
+.ul>li{
+	display: inline;
+	font-size: 13px;
+}
+.ul1>li>a{
+	text-decoration: none;
+	color: black;
+}
+.ul1>li>a:hover{
+	color: #fe6c00;
+}
+.quan{
+	background: #fe6c00;
+	position: absolute;
+	width: 172px;
+	height: 42px;
+	left: 0px;
+	top: 129px;
+}
+.quan>a{
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 37px;
+	text-decoration: none;
+}
+.ul1{
+	position: absolute;
+	left: 172px;
+	top: 142px;
+}
+.ul1>li{
+	display: inline;
+	padding-left: 44px;
+}
+.body{
+	background: #f8f7f6;
+	border-top: 1px solid #fe6c00;
+}
+.body1{
+	width: 1180px;
+	height: 548px;
+	margin: 0 auto;
+	position: relative;
+}
+.dang{
+	height: 424px;
+	width: 27px;
+	background-color: #4c4c4a;
+	border-bottom: 1px solid  #fe6c00;
+	color: #ff4d4b;
+	font-size: 14px;
+	position: absolute;
+	left:  0px;
+	top: 0px;
+}
+.dang>p{
+	position: absolute;
+	top: 26px;
+	text-align: center;
+	line-height: 26px;
+}
+.dao{
+	width: 144px;
+	height: 424px;
+	position: absolute;
+	top: 0px;
+	left: 27px;
+	border-bottom: 1px solid  #fe6c00;
+	background-color: white; 
+}
+.shou1,.shu,.ying,.pei{
+	position: absolute;
+	line-height: 32px;
+	left: 13px;
+	font-size: 12px;
+}
+.shu{
+	left: 47px;
+}
+.ying{
+	left: 79px;
+}
+.pei{
+	left: 111px;
+}
+.lun{
+	width: 801px;
+	height: 365px;
+	background-color: white;
+	border-bottom: 1px solid  #fe6c00;
+	border-right: 1px solid  #fe6c00;
+	position: relative;
+	margin-left: 170px;
+	top: 0px;
+}
+.slider{
+	width: 6408px;
+	position: absolute;
+	left: -801px;
+}
+.slide{
+	float: left;
+	width:801px;
+	overflow: hidden; 
+}
+.nav>li>img{
+	display: inline;
+	position: absolute;
+	top: 323px;
+	left: 331px;
+}
+.nav>li>p{
+	display: inline;
+	position: absolute;
+	top: 320px;
+	font-size: 5px;
+	cursor: pointer;
+}
+.gong{
+	width: 207px;
+	height: 366px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-bottom: 1px solid  #ebeae7;
+	background-color: white;
+}
+.kuai{
+	width: 204px;
+	height: 46px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-bottom: 1px solid  #ebeae7;
+}
+#gao1{
+	position: absolute;
+	top: 0px;
+	left: 16px;
+	color: #ff4d04;
+	font-size: 13px;
+	line-height: 28px;
+}
+.img1{
+	position:absolute;
+	top: 17px;
+	left: 22px;
+}
+.kuai>p{
+	position: absolute;
+	top: 14px;
+	left: 50px;
+	font-size: 16px;
+	color: #fe6c00;
+}
+.img2{
+	position: absolute;
+	top: 20px;
+	right: 13px;
+	font-size: 16px;
+	color: #fe6c00;
+}
+.shen{
+	width: 171px;
+	height: 125px;
+	position: absolute;
+	left: 0px;
+	top: 425px;
+	background: white;
+}
+.shen>img{
+	position: absolute;
+	left: 8px;
+}
+.shen>a{
+	text-decoration: none;
+	color: #855d38;
+	font-size: 12px;
+	position: absolute;
+	left: 39px;
+}
+.photo{
+	position: absolute;
+	top: 366px;
+	left: 170px;
+	width: 801px;
+	height: 185px;
+}
+.photo>img{
+	display: inline;
+	position: absolute;
+}
+.hua{
+	position: absolute;
+	width: 208px;
+	height: 180px;
+	right: 0px;
+	top: 368px;
+	border-left: 1px solid #fe6c00 ;
+	background: white;
+}
+.hua>img{
+	position: absolute;
+	top: 11px;
+	left: 17px;
+}
+.hua>input{
+	width: 123px;
+	height: 26px;
+	position: absolute;
+	top: 34px;
+	left: 17px;
+}
+.hua>select{
+	width: 61px;
+	height: 20px;
+	position: absolute;
+	top: 70px;
+	left: 17px;
+}
+#money{
+	position: absolute;
+	top: 69px;
+	left: 84px;
+	color: #ff4d04;
+}
+.hua>button{
+	width: 178px;
+	height: 26px;
+	background-color: #ff4d04 ;
+	color: white;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 60px;
+	left: 17px; 
+}
+.bottom{
+	width: 1180px;
+	height: 347px;
+	margin: 0 auto;
+	position: relative;
+}
+.bang6{
+	position: absolute;
+	left: 0px;
+}
+.gou{
+	position: absolute;
+	top: 33px;
+	left: 235px;
+	color: #666560;
+	line-height: 27px;
+	font-size: 12px;
+}
+.zhi{
+	position: absolute;
+	top: 33px;
+	left: 366px;
+	color: #666560;
+	line-height: 27px;
+	font-size: 12px;
+}
+.shou2{
+	position: absolute;
+	top: 33px;
+	left: 497px;
+	color: #666560;
+	line-height: 27px;
+	font-size: 12px;
+}
+.VIP{
+	position: absolute;
+	top: 33px;
+	left: 626px;
+	color: #666560;
+	line-height: 27px;
+	font-size: 12px;
+}
+.bang5{
+	position: absolute;
+	top: 33px;
+	left: 763px;
+	color: #666560;
+	line-height: 27px;
+	font-size: 12px;
+}
+.geng{
+	position: absolute;
+	top: 33px;
+	left: 889px;
+	color: #666560;
+	line-height: 27px;
+	font-size: 12px;
+}
+.guan{
+	width: 1023px;
+	height: 68px;
+	border-top: 1px solid #ebeae8;
+	position: absolute;
+	left: 149px;
+	top: 181px;
+}
+.yu{
+	position: absolute;
+	top: 18px;
+	left: 100px;
+}
+.yu>li{
+	display: inline;
+	font-size: 13px;
+	color: #666560;
+	padding-left: 5px;
+}
+.bottom>img{
+	position: absolute;
+	top: 295px;
+	display: inline;
+}
+.C{
+	position: absolute;
+	top: 227px;
+	left: 350px;
+	font-size: 12px;
+	color: #9a9791;
+}
+.zeng{
+	position: absolute;
+	top: 248px;
+	left: 57px;
+	font-size: 12px;
+	color: #9a9791;
+}
+.S{
+	position: absolute;
+	top: 273px;
+	left: 527px;
+	font-size: 12px;
+	color: #9a9791;
+}
