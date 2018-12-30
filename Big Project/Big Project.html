@@ -15,7 +15,7 @@
 		<div id="div2" style="position: fixed;z-index: 9999;top: 180px;right: -80px;width: 124px;height: 140px;background: #ff9260;">
 			<img id="youhui" src="img/youhui.png">
 			<p style="position: absolute;top: 60px;left: 60px;">未登录</p>
-			<div style="position: absolute;top: 80px;left: 70px;width: 30px;height: 20px;border: 1px solid white;border-radius: 5px;font-size: 13px;color: white">登录</div>
+			<div style="position: absolute;top: 85px;left: 70px;width: 30px;height: 20px;border: 1px solid white;border-radius: 5px;font-size: 13px;color: white">登录</div>
 		</div>
 		<div id="div3" style="position: fixed;top: 323px;z-index: 9999;right: -80px;width: 124px;height: 140px;background: #ff9260;">
 			<img id="app" src="img/app.png">
@@ -435,27 +435,27 @@
 				animate(div1,{right:0});
 			}
 			div1.onmouseout=function(){
-				div1.style.right="-80px";
+				animate(div1,{right:-80});
 			}
-			youhui.onmouseover=function(){
+			div2.onmouseover=function(){
 				animate(div2,{right:0});
 			}
-			youhui.onmouseout=function(){
-				div2.style.right="-80px";
+			div2.onmouseout=function(){
+				animate(div2,{right:-80});
 			}
 			div3.onmouseover=function(){
 				animate(div3,{right:0});
 				erwei.style.display="block";
 			}
 			div3.onmouseout=function(){
-				div3.style.right="-80px";
+				animate(div3,{right:-80});
 				erwei.style.display="none";
 			}
 			cart.onmouseover=function(){
 				animate(cart,{right:0});
 			}
 			cart.onmouseout=function(){
-				cart.style.right="-80px";
+				animate(cart,{right:-80});
 			}
 
 		</script>
