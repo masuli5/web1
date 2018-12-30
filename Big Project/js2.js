@@ -96,7 +96,7 @@ function show9(){
   	var ev = ev||window.event;
   	//根据鼠标的位置判断放大镜的位置
   	var left = ev.clientX - box.offsetLeft - slider.offsetWidth/2;
-  	var top = ev.clientY - box.offsetTop - slider.offsetHeight/2-10;
+  	var top = ev.clientY - box.offsetTop - 1.8*slider.offsetHeight/2;
   	var maxLeft = photo1.offsetWidth - slider.offsetWidth;
   	var maxTop = photo1.offsetHeight - slider.offsetHeight;
   	left = left>maxLeft?maxLeft:left<0?0:left;
@@ -135,7 +135,7 @@ function show12(){
   	var ev = ev||window.event;
   	//根据鼠标的位置判断放大镜的位置
   	var left = ev.clientX - box.offsetLeft - slider.offsetWidth/2;
-  	var top = ev.clientY - box.offsetTop - slider.offsetHeight/2-10;
+  	var top = ev.clientY - box.offsetTop - 1.8*slider.offsetHeight/2;
   	var maxLeft = photo1.offsetWidth - slider.offsetWidth;
   	var maxTop = photo1.offsetHeight - slider.offsetHeight;
   	left = left>maxLeft?maxLeft:left<0?0:left;
